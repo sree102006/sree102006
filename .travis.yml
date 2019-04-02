@@ -6,4 +6,4 @@ before_install:
   - docker build -t sree102006/sree102006 -f Dockerfile.dev .
   
 script:
-  - docker run TEST npm run test -- --coverage
+  - docker run sree102006/sree102006  npm run test -- --coverage
