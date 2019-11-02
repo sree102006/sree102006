@@ -1,0 +1,6 @@
+---
+- name: My first git 
+  hosts: ALL
+  tasks:
+   - name: First play
+     command: echo "hello first git"
